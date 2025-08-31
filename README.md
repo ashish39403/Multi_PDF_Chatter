@@ -24,6 +24,6 @@ The app extracts text, creates embeddings, and enables contextual **Q&A across m
 - **Vector Store:** FAISS
 - **PDF Processing:** PyPDF2
 
----
+
 
 
