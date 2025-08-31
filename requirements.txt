@@ -1,0 +1,10 @@
+langchain
+langchain-ollama
+python-dotenv
+streamlit
+streamlit-chat
+Pypdf2
+faiss-cpu
+langchain-community 
+unstructured
+beautifulsoup4

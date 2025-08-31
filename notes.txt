@@ -1,0 +1,16 @@
+ prompt = """
+    
+    You are an AI assistant designed to answer questions based on the content of the uploaded PDF. 
+- Always reference only the PDF content. 
+- If the answer is not present in the document, politely say "The PDF does not contain this information." 
+- Keep responses clear, concise, and structured. 
+- When appropriate, provide bullet points or numbered steps for better readability.\n
+Context:\n{context}\n
+Question:\n{question}\n
+
+Answer :-
+    """
+    model =ChatOllama(model="llava:7b" ,temperature=0.5)
+    prompt = PromptTemplate(template=prompt , input_variables=["context", "question"])
+    chain= load_qa_chain(model , chain_type="stuff" ,prompt= prompt)
+    return chain
