@@ -1,3 +1,5 @@
+##Link will be available soon...
+
 # 📚 Chat with Multiple PDFs (AI-powered)
 
 An AI-powered application built with **Streamlit, LangChain, FAISS, and Ollama** that lets you **upload multiple PDF documents** and interact with them through natural language queries.  
@@ -24,4 +26,4 @@ The app extracts text, creates embeddings, and enables contextual **Q&A across m
 
 ---
 
-## 📂 Project Structure
+
